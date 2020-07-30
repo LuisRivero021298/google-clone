@@ -6,6 +6,7 @@
 }
 body {
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
 }
 header{
   width: 100%;
@@ -40,3 +41,81 @@ nav .nav-right-section .profile-photo img{
   border-radius: 100%;
   margin-left: 10px;
 }
+
+/*Main section*/
+
+main{
+  margin: 100px;
+  text-align: center;
+}
+main .main-logo{
+  width: 530px;
+  margin: 0 auto 35px;
+}
+main .main-input{
+  width: 550px;
+  margin: 0 auto 35px;
+}
+main .main-input-container{
+  width: 545px;
+  border-radius: 100px;
+  border: 1px solid #dfe1e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .main-input-container:hover{
+  box-shadow: 0px 1px 6px rgba(0,0,0,.2);
+  border-color: #dfe1e500;
+}
+main .main-input-container input {
+  height: 40px;
+  width: 450px;
+  border: none;
+  outline: none;
+}
+main .main-input-container .search-icon {
+  fill: #9aa0a6;
+  width: 20px;
+  height: 20px;
+  padding-right: 10px;
+}
+main .main-input-container .search-voice-icon {
+  background-image: url('https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png');
+  width: 22px;
+  height: 22px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+main .main-buttons {
+  width: 530px;
+  margin: 0 auto;
+}
+main .main-buttons div{
+  display: inline-block;
+}
+main .main-buttons button{
+  height: 36px;
+  background-color: #f2f2f2;
+  border: none;
+  font-size: 14px;
+  color: #626262;
+  border: 1px solid #f2f2f2;
+  border-radius: 3px;
+  padding: 0 15px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+main .main-buttons button:hover{
+  background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+  background-color: #f8f8f8;
+  box-shadow: 0 1px 1px rgba(0,0,0,.1);
+  border-color:rgba(0,0,0,.2);
+  color: var(--grey-dark);
+}
+
+/*Footer*/
+
+
+
